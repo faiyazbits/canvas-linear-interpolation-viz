@@ -1,0 +1,38 @@
+body,html{
+    margin:0px;
+}
+#canvas{
+    display:block;
+}
+#startX{
+
+    position: absolute;
+    top:550px;
+    left:100px;
+}
+
+#endX{
+    position: absolute;
+    top:550px;
+    left:300px;
+}
+
+#startY{
+    position: absolute;
+    top:550px;
+    left:500px;
+}
+
+#endY{
+
+    position: absolute;
+    top:550px;
+    left:700px;
+}
+
+#interpolate{
+    position: absolute;
+    top:550px;
+    left:900px;
+
+}

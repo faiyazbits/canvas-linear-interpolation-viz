@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Linear Interpolation</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+<input id="startX" type="range" min="100" max="800" onchange="drawStaticLine()"/>
+<input id="startY" type="range" min="100" max="800" onchange="drawStaticLine()"/>
+<input id="endX" type="range" min="100" max="800" onchange="drawStaticLine()"/>
+<input id="endY" type="range" min="100" max="800" onchange="drawStaticLine()"/>
+<div style=" position: absolute ;top:570px ;left:110px">startX</div>
+<div style=" position: absolute ;top:570px ;left:310px">endX</div>
+<div style=" position: absolute ;top:570px ;left:510px">startY</div>
+<div style=" position: absolute ;top:570px ;left:710px">endY</div>
+<button id="interpolate" onclick="onInterpolateClick()">startInterpolating</button>
+<script type="text/javascript" rel="script" src="interpolate.js"></script>
+</body>
+</html>
